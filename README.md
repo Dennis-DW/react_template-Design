@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Getting Started with Create React App
+# Getting Started with react_template-Design  App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -70,5 +70,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
-# react_template-Design
->>>>>>> fd7b71a1f31b2919f1a0aa60d1c3c6edd297af4b
+# 
+>>>>>>> 
