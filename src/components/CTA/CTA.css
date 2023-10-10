@@ -1,0 +1,85 @@
+.web3__cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar)
+}
+
+.web3__cta-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #110713;
+}
+
+.web3__cta-content p {
+    font-family: Cinzel;
+    font-size: 10px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.web3__cta-content h3 {
+    font-family: Cinzel;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 800;
+}
+
+.web3__cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.web3__cta-btn button {
+    width: 250px;
+    height: 60px;
+    border: 3px solid #31fd3b;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: ar(--font-family);
+}
+
+.web3__cta-btn button:hover {
+    background: #000000;
+    color: white;
+    font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 650px) {
+    .web3__cta {
+        flex-direction: column;
+    }
+
+    .web3__cta-btn {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .web3__cta {
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+
+    .web3__cta-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .web3__cta-btn button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}

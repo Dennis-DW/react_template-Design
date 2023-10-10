@@ -1,0 +1,149 @@
+.web3 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background: var(--color-footer);
+      /* global 92%+ browsers support */
+      background: radial-gradient(circle at 36% 48%, rgba(10, 110, 24, 1) 27%, rgba(139, 192, 74, 1) 61%, rgba(55, 133, 47, 0.81) 88%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.web3-feature {
+  display: flex;
+}
+
+/* Customizing feature component as per needs */
+.web3-feature .gpt3__features-container__feature {
+  margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.web3-feature .gpt3__features-container_feature-text {
+  max-width: 700px;
+}
+
+.web3-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0 2rem;
+}
+
+.web3-heading h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 500;
+  font-family: Cinzel ;
+  max-width: 610px;
+}
+
+.web3-heading p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+  cursor: pointer;
+}
+
+.web3-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.web3-container .gpt3__features-container__feature {
+  flex: 1;
+  margin: 1rem;
+  min-width: 210px;
+  display: unset;
+  flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.web3-container .gpt3__features-container_feature-text {
+  margin-top: 0.5rem;
+}
+/* buyMeCoffeeButton.css */
+.bmc-button img {
+  width: 27px;
+  margin-bottom: 1px;
+  box-shadow: none;
+  border: none;
+  vertical-align: middle;
+}
+
+.bmc-button {
+  line-height: 36px;
+  height: 37px;
+  text-decoration: none;
+  display: inline-flex;
+  color: #ffffff;
+  background-color: #FF813F;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding: 1px 9px;
+  font-size: 23px;
+  letter-spacing: 0.6px;
+  box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5);
+  -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5);
+  margin: 0 auto;
+  font-family: 'Cookie', cursive;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -o-transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  -moz-transition: 0.3s all linear;
+  -ms-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+}
+
+.bmc-button:hover,
+.bmc-button:active,
+.bmc-button:focus {
+  -webkit-box-shadow: 0px 1px 2px 2px rgba(52, 255, 1, 0.986);
+  text-decoration: none;
+  box-shadow: 0px 1px 2px 2px rgba(255, 14, 14, 0.5);
+  opacity: 0.85;
+  color: #ffffff;
+}
+@media screen and (max-width: 850px) {
+  .web3-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
+
+  .web3-heading p {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  /* Customizing feature component as per needs */
+  .web3-feature .gpt3__features-container__feature {
+    flex-direction: column;
+  }
+
+  /* Customizing feature component as per needs */
+  .web3-feature .gpt3__features-container_feature-text {
+    margin-top: 0.5rem;
+  }
+
+  .web3-heading h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* Customizing feature component as per needs */
+  .web3-container .gpt3__features-container__feature {
+    margin: 1rem 0;
+    min-width: 100%;
+  }
+}

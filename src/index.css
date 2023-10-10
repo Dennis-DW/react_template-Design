@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Black+Ops+One&family=Cinzel&family=Croissant+One&family=EB+Garamond&family=Libre+Baskerville:ital,wght@0,700;1,400&family=Lobster&family=Merriweather:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,800;1,100&family=Rajdhani:wght@300;400&family=Roboto+Mono:ital,wght@0,100;1,100&family=Roboto:ital,wght@1,100&family=Rubik+Iso&family=Skranji&family=Tilt+Prism&family=Tulpen+One&family=Young+Serif&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Black+Ops+One&family=Cinzel&family=Croissant+One&family=EB+Garamond&family=Libre+Baskerville:ital,wght@0,700;1,400&family=Lobster&family=Merriweather:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,800;1,100&family=Rajdhani:wght@300;400&family=Roboto+Mono:ital,wght@0,100;1,100&family=Roboto:ital,wght@1,100&family=Rubik+Iso&family=Skranji&family=Tilt+Prism&family=Tulpen+One&family=Young+Serif&display=swap');
+  /* Cinzel */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --font-family: 'Rajdhani';
+
+  --gradient-text: linear-gradient(89.97deg, #fa6793 1.84%, #b7f467 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #67fa73  -13.86%, #ce9090 99.55%);
+  
+  --color-bg: #000000;
+  --color-footer : #04200298;
+  --color-blog: #4f5404;
+  --color-text: #f7f7f7;
+  --color-subtext: #f6ff71;
 }

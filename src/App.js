@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import { Article, Brand, CTA, Navbar } from "./components";
+import {
+  Blog,
+  Features,
+  Footer,
+  Header,
+  Possibility,
+  Whatweb3,
+} from "./containers";
+import "./App.css";
+import videoBackground from "../src/assets/video1.mp4";
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <div className="video-background">
+        <video autoPlay loop muted>
+          <source src={videoBackground} type="video/mp4" />
+        </video>
+        <a href="#home">
+          <div className="content">
+            <div className="arrow arrow-first"></div>
+          </div>
         </a>
-      </header>
+
+        <div class="connect-hello-world">
+          <h1 className="gradient__text">Dennys&apos;Wamb</h1>
+          <p>
+            "Welcome to our community! Explore, learn, and enjoy your journey."
+          </p>
+        </div>
+        <Navbar />
+      </div>
+      <Header />
+      <Brand />
+      <Whatweb3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
