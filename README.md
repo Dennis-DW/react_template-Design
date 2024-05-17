@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Getting Started with react_template-Design  App
 Link for the website: [react_template-Design  App](https://react-template-design-i291sgfsj-dennis-dw.vercel.app/).
 
